@@ -1,0 +1,16 @@
+Refere:- https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#create-env-file-manually
+         https://salishsea-meopar-docs.readthedocs.io/en/latest/work_env/porting_to_python3.html
+
+
+Create env:-
+    conda create -n mypython3 python=3
+
+Active ENV:-
+    conda activate mypython3
+    
+To get all the goodies (e.g. Jupyter Notebook, NumPy, matplotlib) you can install Anaconda, which will auto-magically use Python 3.
+    conda install anaconda
+    
+and then our additional install, netcdf4-python
+
+    conda install netcdf4
